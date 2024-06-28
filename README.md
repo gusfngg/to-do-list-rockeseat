@@ -2,8 +2,6 @@
 
 > Project made on Rocketseat's React JS trail.
 
-(https://www.figma.com/file/0n0zDN7zbzhRbaEO74Xesx/ToDo-List/duplicate)
-
 Putting into practice the concepts of: States, state immutability, Array methods, key, property, componentization.
 
 It consists of a ToDo-list where it is possible:
