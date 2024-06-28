@@ -12,7 +12,7 @@ Putting into practice the concepts of: States, state immutability, Array methods
 - Remove a task from the list.
 = Show task completion progress.
 
-[🔗 Click here to access]()
+[🔗 Click here to access](https://gusfngg.github.io/to-do-list-rockeseat/)
 
 ### Techs
 
