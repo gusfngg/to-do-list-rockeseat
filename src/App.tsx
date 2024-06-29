@@ -50,6 +50,8 @@ export function App() {
     setTasks(updatedTasks);
   }
 
+  const isNewTaskEmpty = inputValue.length === 0;
+
   function deleteTask(id: string) {
     const tasksWithoudDeleteOne = tasks.filter(task => {
       return task.id !== id;
@@ -70,7 +72,10 @@ export function App() {
               value={inputValue}
             />
 
-            <Button/>
+            <Button
+              type='submit'
+              disabled={isNewTaskEmpty}
+            />
           </form>
         </div>
 
